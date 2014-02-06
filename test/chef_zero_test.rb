@@ -22,4 +22,8 @@ class ChefZeroTest < MiniTest::Unit::TestCase
   def test_upload_repo_to_chef_zero_server
     skip 'This should be tested when this method is actually called.'
   end
+
+  def test_knife_config_file_content
+    assert_match 'chef_server_url "http://127.0.0.1', File.open(knife_config_file, "rb").read
+  end
 end
