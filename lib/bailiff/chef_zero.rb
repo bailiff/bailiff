@@ -3,8 +3,11 @@ require 'chef_zero/server'
 
 module Bailiff
   module ChefZero
-    def start_chef_server
-      server = ::ChefZero::Server.new(port: ENV['CHEF_ZERO_PORT'])
+    def create_chef_server
+      ::ChefZero::Server.new(port: ENV['CHEF_ZERO_PORT'])
+    end
+
+    def start_chef_server(server = create_chef_server)
       server.start_background
     end
 
