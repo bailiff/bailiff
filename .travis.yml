@@ -1,0 +1,9 @@
+language: ruby
+rvm:
+  - "2.0.0"
+  - "2.1.0"
+gemfile: Gemfile
+script: "bundle exec rake test"
+notifications:
+  hipchat:
+    secure: "gudRADJSee2dN9r3/Ub1KNXxiUm9mhU7FdtD0QBUc6EF+MsJT4iZdXnpzqU0iDhTdvKY8I1Yp/mDwdbK15pvKaYaY0IcT+2U689F5GlKK5PhelE187Yd4WwCvGL3Nxds/J+F+r0o/MHUeLZhyU655uMKwtbDlrQF9ZZZ+nn6LuI="

@@ -1,5 +1,8 @@
 # Bailiff
 
+[![Code Climate](https://codeclimate.com/github/bailiff/bailiff.png)](https://codeclimate.com/github/bailiff/bailiff)
+[![Build Status](https://travis-ci.org/bailiff/bailiff.png?branch=feature/code_quality_assurance)](https://travis-ci.org/bailiff/bailiff)
+
 TODO: Write a gem description
 
 ## Installation
