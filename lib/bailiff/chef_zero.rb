@@ -1,4 +1,3 @@
-require 'knife/dsl'
 require 'chef_zero/server'
 
 module Bailiff
